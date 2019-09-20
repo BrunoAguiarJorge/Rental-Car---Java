@@ -1,6 +1,6 @@
 package model.services;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
 	
 	//Double with capital D is type class and double with small d is type of primitivo.
 	public double tax(double amount) {

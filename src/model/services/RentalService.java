@@ -9,10 +9,10 @@ public class RentalService {
 	private Double pricePerDay;
 
 	// association with
-	private BrazilTaxService taxService;
+	private TaxService taxService;
 	
 
-	public RentalService(Double pricePerHour, Double pricePerDay, BrazilTaxService brazilTaxService) {
+	public RentalService(Double pricePerHour, Double pricePerDay, TaxService brazilTaxService) {
 		super();
 		this.pricePerHour = pricePerHour;
 		this.pricePerDay = pricePerDay;
